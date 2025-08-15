@@ -5,7 +5,7 @@ def solution(arr):
 		return [-1]
 	else:
 		min_value = min(arr)
-		arr.remove(min_value)
+		arr.remove(min_value) # pop을 쓸거면 최솟값 index을 찾고, pop(min_index)로 제거해야함
 		return arr
 # 예시 입력
 arr = [3, 2, 1, 4]
