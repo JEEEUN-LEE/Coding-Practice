@@ -28,7 +28,7 @@ def solution(bandage, health, attacks):
             bonus = 0
             idx += 1
             if ch <= 0:
-                return -1
+                return -1 #0보다 적으면 -1로 출력
             continue
 
         # 회복 시간인 경우
